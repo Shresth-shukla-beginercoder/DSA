@@ -1,0 +1,14 @@
+1. How many rows?
+2. How many columns?
+3. Where are the spaces?
+4. Where are the characters/numbers?
+5. Does the value depend on i?
+6. Does it depend on j?
+7. Is there symmetry?
+8. Is there a boundary?
+9. Is there an increasing/decreasing section?
+10. Can I divide it into smaller patterns?
+11. How many things are printed in each row?
+12. What controls spaces?
+13. What controls the value/character being printed?
+
