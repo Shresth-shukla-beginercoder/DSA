@@ -39,3 +39,55 @@ M L K J I
     }
     return 0;
 }
+
+/*
+Javascript
+let n = 5;
+
+let a = Array.from({ length: n }, () => Array(n).fill(" "));
+
+let t = 0;
+let b = n - 1;
+let l = 0;
+let r = n - 1;
+
+let c = 0;
+
+const ch = () => String.fromCharCode(65 + (c++ % 26));
+
+while (t <= b && l <= r) {
+
+    // Left → Right
+    for (let j = l; j <= r; j++) {
+        a[t][j] = ch();
+    }
+    t++;
+
+    // Top → Bottom
+    for (let i = t; i <= b; i++) {
+        a[i][r] = ch();
+    }
+    r--;
+
+    // Right → Left
+    if (t <= b) {
+        for (let j = r; j >= l; j--) {
+            a[b][j] = ch();
+        }
+        b--;
+    }
+
+    // Bottom → Top
+    if (l <= r) {
+        for (let i = b; i >= t; i--) {
+            a[i][l] = ch();
+        }
+        l++;
+    }
+}
+
+// Print
+for (const row of a) {
+    console.log(row.join(" "));
+}
+*/
