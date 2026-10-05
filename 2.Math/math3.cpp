@@ -41,6 +41,7 @@ cout<<"The reverse of number "<<n<<" is "<<rev;
 
 /*
 Javascript
+
 let n=1200
 let org =n;
 let rev = Number(String(n).split('').reverse().join(''));

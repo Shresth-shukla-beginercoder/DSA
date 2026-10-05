@@ -34,7 +34,7 @@
 unsigned long long f=1;
 
 
-for(unsigned long long i =f;i<=n;i++){
+for(unsigned long long i =1;i<=n;i++){
     f=f*i;
 }
 
