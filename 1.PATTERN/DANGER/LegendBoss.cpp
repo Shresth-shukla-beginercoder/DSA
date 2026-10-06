@@ -13,7 +13,7 @@ int main(){
         cout<<"Invalid Input"<<endl;
     }
 }while(n<=0||n>set_max);
-vector<vector<int>> a(n, vector<int>(n));
+vector<vector<int>> a(n/*rows*/, vector<int>(n/*cols*/,0));
 int t = 0, b = n - 1, l = 0, r = n - 1, c = 1;
 /*
  1  2  3  4  5

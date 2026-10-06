@@ -1,0 +1,232 @@
+Absolutely. Here is the **clean remaining list with exactly one simple example for each question**.
+
+# 📚 Remaining 39 Questions
+
+## Foundation
+
+### 1. Digit Frequency
+
+**Question:** Find how many times a particular digit appears in a number.
+**Example:** `122333`, digit `3` → **3 times**
+
+### 2. Sum of Digits
+
+**Question:** Find the sum of all digits of a number.
+**Example:** `1234` → `1 + 2 + 3 + 4 = 10`
+
+### 3. Sum of Divisors
+
+**Question:** Find the sum of all divisors of a number.
+**Example:** `6` → `1 + 2 + 3 + 6 = 12`
+
+---
+
+## Prime / Factorization
+
+### 4. Prime Factorization
+
+**Question:** Express a number as a product of prime numbers.
+**Example:** `12` → `2 × 2 × 3`
+
+### 5. Largest Prime Factor
+
+**Question:** Find the largest prime factor of a number.
+**Example:** `60` → **5**
+
+### 6. Count Prime Factors
+
+**Question:** Count the prime factors of a number, including repeated factors.
+**Example:** `12 = 2 × 2 × 3` → **3 prime factors**
+
+### 7. Sieve of Eratosthenes
+
+**Question:** Find all prime numbers from `2` to `n`.
+**Example:** `n = 10` → **2, 3, 5, 7**
+
+### 8. SPF Sieve
+
+**Question:** Find the smallest prime factor of every number up to `n`.
+**Example:** For `10` → SPF of `10` is **2**
+
+---
+
+## GCD / LCM
+
+### 9. GCD of Array
+
+**Question:** Find the GCD of all numbers in an array.
+**Example:** `[12, 18, 24]` → **6**
+
+### 10. LCM of Array
+
+**Question:** Find the LCM of all numbers in an array.
+**Example:** `[2, 3, 4]` → **12**
+
+### 11. Coprime Check
+
+**Question:** Check whether two numbers have GCD equal to `1`.
+**Example:** `8, 15` → **Coprime**
+
+### 12. GCD After Removing an Element
+
+**Question:** Remove one element and find the GCD of the remaining elements.
+**Example:** `[12, 18, 24]`, remove `12` → GCD of `[18, 24]` = **6**
+
+---
+
+## Modulo
+
+### 13. Fast Exponentiation
+
+**Question:** Find a large power efficiently.
+**Example:** `2⁵` → **32**
+
+### 14. Large Power Modulo `m`
+
+**Question:** Find `(aᵇ) % m`.
+**Example:** `(2⁵) % 7` → **4**
+
+### 15. Large Number Modulo `m`
+
+**Question:** Find the remainder when a large number is divided by `m`.
+**Example:** `12345 % 7` → **4**
+
+### 16. Modular Inverse
+
+**Question:** Find a number that gives remainder `1` when multiplied by the given number modulo `m`.
+**Example:** Inverse of `3 mod 7` → **5**
+
+### 17. Extended Euclidean Algorithm
+
+**Question:** Find `x` and `y` such that `ax + by = gcd(a,b)`.
+**Example:** `30x + 20y = 10` → `x = 1, y = -1`
+
+---
+
+## Mathematical Patterns
+
+### 18. Happy Number
+
+**Question:** Check whether repeatedly summing the squares of digits eventually gives `1`.
+**Example:** `19` → **Happy number**
+
+### 19. Ugly Number
+
+**Question:** Check whether a number has only `2`, `3`, and `5` as its prime factors.
+**Example:** `12 = 2 × 2 × 3` → **Ugly number**
+
+### 20. Fibonacci
+
+**Question:** Find the Fibonacci number at a given position.
+**Example:** `F(7)` → **13**
+
+### 21. Fast Fibonacci
+
+**Question:** Find a Fibonacci number at a very large position efficiently.
+**Example:** `F(50)` → **12,586,269,025**
+
+---
+
+## Counting
+
+### 22. nCr
+
+**Question:** Choose `r` objects from `n` objects where order does not matter.
+**Example:** `5C2` → **10**
+
+### 23. nPr
+
+**Question:** Choose and arrange `r` objects from `n` objects where order matters.
+**Example:** `5P2` → **20**
+
+### 24. Binary Strings Without Consecutive `1`s
+
+**Question:** Count binary strings of length `n` that don't contain `11`.
+**Example:** `n = 2` → `00, 01, 10` → **3**
+
+### 25. Subset Counting
+
+**Question:** Find the number of possible subsets of `n` elements.
+**Example:** `{A, B}` → **4 subsets**
+
+### 26. Lattice Paths
+
+**Question:** Count the number of paths through a grid when only allowed movements can be made.
+**Example:** `2 × 2` grid → **6 paths**
+
+### 27. Inclusion–Exclusion
+
+**Question:** Count elements in multiple groups without double-counting overlaps.
+**Example:** 20 like Cricket, 15 like Football, 5 like both → **30 like at least one**
+
+---
+
+## Number Theory
+
+### 28. Euler Totient
+
+**Question:** Count numbers from `1` to `n` that are coprime with `n`.
+**Example:** `φ(6)` → **2** (`1, 5`)
+
+### 29. Diophantine Equation
+
+**Question:** Find integer solutions to an equation such as `ax + by = c`.
+**Example:** `3x + 5y = 11` → `x = 2, y = 1`
+
+### 30. Chinese Remainder Theorem
+
+**Question:** Find a number satisfying multiple remainder conditions.
+**Example:** `x % 3 = 2`, `x % 5 = 3` → `x = 8`
+
+### 31. Fermat's Little Theorem
+
+**Question:** Use modular properties of powers when the modulus is prime.
+**Example:** `3⁶ % 7` → **1**
+
+---
+
+## Binary / Math
+
+### 32. Power of Two
+
+**Question:** Check whether a number is a power of `2`.
+**Example:** `16` → **Yes**
+
+### 33. Count Set Bits
+
+**Question:** Count the number of `1`s in the binary representation.
+**Example:** `5 = 101` → **2 set bits**
+
+### 34. XOR `1...n`
+
+**Question:** Find the XOR of all numbers from `1` to `n`.
+**Example:** `1 XOR 2 XOR 3` → **0**
+
+### 35. XOR Range
+
+**Question:** Find the XOR of all numbers between two given numbers.
+**Example:** `[3, 5]` → `3 XOR 4 XOR 5` → **2**
+
+### 36. Missing Number
+
+**Question:** Find the missing number from `0` to `n`.
+**Example:** `[0, 1, 3]` → **2**
+
+### 37. Two Non-Repeating Numbers
+
+**Question:** Find the two numbers that occur only once while all others occur twice.
+**Example:** `[1, 2, 1, 3, 2, 5]` → **3 and 5**
+
+---
+
+## Advanced
+
+### 38. Trailing Zeroes in Factorial
+
+**Question:** Find the number of zeros at the end of `n!`.
+**Example:** `10!` → **2 trailing zeroes**
+
+### 39. Last Non-Zero Digit of Factorial
+
+**Question:** Find the last digit of `n!` that is not zero.
+**Example:** `10!` → **8**

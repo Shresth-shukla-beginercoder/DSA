@@ -24,7 +24,7 @@ N W V U H
 M L K J I
 
 */
-    auto ch = [&]() { return char('A' + c++ % 26); };   // next letter, wraps after Z
+    auto ch = [&c]() { return char('A' + c++ % 26); };   // next letter, wraps after Z
     while (t <= b && l <= r) {
         for (int j = l; j <= r; j++) a[t][j] = ch();
         t++;

@@ -18,13 +18,15 @@ int main() {
     cin >> n;
 
     vector<int> divisors;
-
+    int count = 0;
     for (int i = 1; i * i <= n; i++) {
         if (n % i == 0) {
             divisors.push_back(i);
+            count++;
 
             if (i != n / i) {
                 divisors.push_back(n / i);
+                count++;
             }
         }
     }
@@ -34,6 +36,6 @@ int main() {
     for (int x : divisors) {
         cout << x << " ";
     }
-
+    cout<<"The count of divisors is: " << count << endl;
     return 0;
 }
