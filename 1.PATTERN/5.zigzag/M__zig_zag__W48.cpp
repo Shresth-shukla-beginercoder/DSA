@@ -17,7 +17,7 @@ int main()
     } while (n <= 0 || n > set_max);
     /*
 
-    1       5       9   // replace j+1 with * to get star pattern
+    1       5       9  // replace j+1 with * to get star pattern
       2   4   6   8
         3       7
 

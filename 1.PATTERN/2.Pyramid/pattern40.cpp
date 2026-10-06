@@ -48,7 +48,7 @@ for (int i = 0; i < n; i++)
     {
         cout << value << " ";
 
-        value = value * (i - j) / (j + 1);
+        value = value * (i - j) / (j + 1);// formula for calculating the next value in Pascal's triangle
     }
 
     cout << endl;
