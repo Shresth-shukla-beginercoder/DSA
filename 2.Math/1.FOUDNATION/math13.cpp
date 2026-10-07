@@ -39,3 +39,28 @@ int main() {
     cout<<"The count of divisors is: " << count << endl;
     return 0;
 }
+
+/*
+Javascript
+
+let n=42
+let arr=[];
+
+for(let i=1;i*i<=n;i++){
+if(n%i==0){
+arr.push(i);
+
+if(i!=n/i){
+arr.push(Math.floor(n/i));
+}}
+}
+arr.sort((a,b)=>a-b)
+for(let i=0;i<arr.length;i++){
+console.log(`${arr[i]}`)
+}
+
+
+
+
+
+*/

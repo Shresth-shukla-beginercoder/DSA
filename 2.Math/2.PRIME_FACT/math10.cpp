@@ -43,11 +43,12 @@ int main() {
         }
 
         if (isPrime) {
+            cout<<i<<endl;
             count++;
         }
     }
 
-    cout << "The number of prime are = " << count;
+    cout << " These are number prime & total are = " << count;
 
     return 0;
 }
