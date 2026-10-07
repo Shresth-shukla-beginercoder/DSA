@@ -2,15 +2,6 @@
 
 ## GCD / LCM
 
-### 9. GCD of Array
-
-**Question:** Find the GCD of all numbers in an array.
-**Example:** `[12, 18, 24]` → **6**
-
-### 10. LCM of Array
-
-**Question:** Find the LCM of all numbers in an array.
-**Example:** `[2, 3, 4]` → **12**
 
 ### 11. Coprime Check
 
