@@ -1,20 +1,4 @@
 
-
-## GCD / LCM
-
-
-### 11. Coprime Check
-
-**Question:** Check whether two numbers have GCD equal to `1`.
-**Example:** `8, 15` → **Coprime**
-
-### 12. GCD After Removing an Element
-
-**Question:** Remove one element and find the GCD of the remaining elements.
-**Example:** `[12, 18, 24]`, remove `12` → GCD of `[18, 24]` = **6**
-
----
-
 ## Modulo
 
 ### 13. Fast Exponentiation
