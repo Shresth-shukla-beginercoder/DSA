@@ -1,0 +1,10 @@
+Your practice routine
+For each problem:
+1. Understand: Restate the problem and manually solve its example.
+2. Attempt: Write a brute-force approach before optimizing, when appropriate.
+3. Review: Identify the bottleneck and select the relevant pattern.
+4. Implement: Write your own C++ solution.
+5. Translate: Implement the same logic in JavaScript.
+6. Test: Include empty or minimal inputs where allowed, duplicates, negative numbers, and boundary cases.
+7. Analyze: State time and auxiliary space complexity.
+8. Revisit: Solve it again withoutmklp-=     looking at your previous code.
